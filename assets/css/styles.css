@@ -1,0 +1,554 @@
+/**** START LEGACY STYLES ****/
+/*** general ***/
+/* Next Episode Links */
+.guestbook-spoiler-checkbox,
+.welcome-simulcasts .welcome-simulcasts-collection a,
+.welcome-simulcasts .welcome-simulcasts-episode,
+.welcome-title-list h1 a,
+.welcome-block h1 a,
+.welcome-crnews-title,
+.welcome-news-title,
+.welcome-latest-videos .name,
+.welcome-latest-videos .series,
+.user-profile-header a,
+a.forum_main-topic-desc-title,
+.topbar-nav-trail a,
+.group-card-name,
+.group-card-headline,
+.group-card-details,
+.widget-forumcategory-display-title a,
+.showforumtopic-message-user-name a,
+.showforumtopic-message-user-details,
+#launch_calendar_header,
+.search-video-thumbs .name,
+.search-video-thumbs .series,
+.search-results .name,
+ul.search-tabs a,
+.daily-deal a h3,
+#product_pricing .member-discount,
+.selectboxit-list .selectboxit-option-anchor,
+/* Vendor page */
+.selectboxit-list>.selectboxit-focus>.selectboxit-option-anchor,
+/* Vendor page current selected */
+ul.news h2 a,
+.news-header-right a,
+.showcrunchynews h1 a,
+ul.newsfeed h2 a,
+.user-profile-twitter-sync,
+.dimtext,
+#showmedia_about_info_details,
+/* Newsfeed Stuff */
+.welcome-forum-category a,
+/* Front Page Forum stuff category header */
+.welcome-pulse-box a,
+/* Front Page Forum stuff topics */
+.welcome-countdown-items a,
+/* Front Page now showing */
+.welcome-recent-desc,
+/* front page recent stuff */
+div.acct-nav a,
+/* Settings Page */
+.simulcast-calendar,
+.calendar-day .day-switcher,
+.calendar h1>a,
+/* /simulcast-calendar */
+.anime-lineup-blurb,
+/* /lineup */
+small,
+.login-or-signup-page .forms,
+/* login page / general */
+#source_showview .season-dropdown.open,
+#source_showview .season-dropdown,
+.paginator-lite,
+.text-input[type="text"],
+.text-input[type="password"],
+textarea.text-input,
+input[type=text],
+input[type=email],
+input[type=password],
+textarea,
+.user-profile-link,
+.widget-forumnav .widget-forumnav-children {
+	color: #eee !important;
+}
+
+/* replace links with a slightly ligher color */
+/* - non hover - */
+/* -- for links that have to have !important -- */
+.welcome-recent-link a {
+	color: #0d91d9 !important;
+}
+
+/* -- subsections, slightly darker color -- */
+/* --- for ones that need !important --- */
+.welcome-recent-ep a {
+	color: #0b81c1 !important;
+}
+
+/* - hover - */
+/* -- for links that have to have !important -- */
+.welcome-recent-link a:hover,
+.welcome-recent-ep a:hover,
+.welcome-block h1 a:hover {
+	color: #68c9fd !important;
+}
+
+/* forums */
+.guestbook .guestbook-links a img,
+.searchbox-focus,
+.search-submit-button {
+	filter: grayscale(1);
+}
+
+#main_content textarea,
+.features-input input[type=text],
+.email-subscribe input[type=text]
+
+/* Store Page */
+	{
+	background-color: #494949;
+	border: 1px solid #666;
+	border-top: 1px solid #656565;
+	color: #eee;
+	text-shadow: 0 1px 1px #666;
+}
+
+.bb-quoters-end {
+	background: url(chrome-extension://__MSG_@@extension_id__/images/quote_end.png) no-repeat;
+	filter: invert(1) grayscale(1);
+}
+
+.bb-quoters {
+	background: url(chrome-extension://__MSG_@@extension_id__/images/quote_start.png) no-repeat;
+	filter: invert(1) grayscale(1);
+}
+
+.guestbook-sort-bar,
+.comments .more-replies {
+	background-color: #2d2d2d;
+	border-color: #666;
+}
+
+.guestbook .guestbook-list-hidden {
+	opacity: 1;
+}
+
+.bb-smilie-smile,
+.bb-smilie-sad,
+.bb-static-smilie {
+	border: none;
+}
+
+#template_action_button a,
+.action-button,
+/* Forum Buttons */
+a.default-button,
+span.default-button,
+input.default-button,
+/* General Buttons */
+.default-button,
+.submitbtn,
+/* User Page */
+.big-btn
+
+/* New Forum Post */
+	{
+	background-color: #333;
+	color: #eee;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+	background-image: none;
+	box-shadow: inset 0 1px 0 rgba(31, 31, 31, 0.45);
+	border-color: #666;
+}
+
+.welcome-countdown-items a:hover,
+.welcome-pulse-box a:hover,
+.welcome-simulcasts .welcome-simulcasts-episode:hover,
+.landscape-grid .wrapper:hover,
+body .wrapper .landscape-element:active {
+	background-color: #454545 !important;
+}
+
+input#status_div,
+input.user-status-new-form
+
+/* User Page Quote */
+	{
+	background-color: transparent;
+	border: none;
+	color: #eee;
+}
+
+input.user-status-new-form-selected,
+input.user-status-new-form-mouseover,
+.library-share-link input {
+	background-color: #454545;
+	color: #eee;
+	border: none;
+}
+
+.library-tab-widget .tab a,
+.bbcode-preview-container {
+	background-color: #454545;
+	color: #eee;
+	border-color: #666;
+}
+
+.library-tab-widget .tab-container .tab a:hover {
+	opacity: 1;
+	background-color: #2d2d2d;
+}
+
+.topbar-nav-trail a:hover {
+	color: #969696;
+}
+
+a.forum_main-topic-desc-numcomments {
+	background-image: none;
+	color: #eee;
+}
+
+a.forum_main-topic-desc-numcomments:after {
+	content: "Comments";
+	color: #eee;
+	font-size: 70%;
+}
+
+.bb-quote {
+	color: #eee;
+	background-color: #1b1b1b;
+}
+
+.widget-forumnav-current:before,
+.widget-forumnav-current:after {
+	border-left-color: #454545 !important;
+}
+
+.widget-forumnav-ancestor:before {
+	border-left-color: #2d2d2d;
+}
+
+a.bbtool img {
+	background-color: transparent;
+	border-color: #666;
+}
+
+.calendar-month-date-events-today {
+	border-color: #619bdf;
+}
+
+#launch_calendar_legend div {
+	color: #000;
+}
+
+#launch_calendar_header img {
+	display: none;
+}
+
+ul.search-tabs a:hover,
+ul.search-tabs .highlight a,
+.search-results a:hover,
+.acct-guestpass-notice
+
+/* Settings -> Guest Pass Page */
+	{
+	background-color: #1d1d1d;
+}
+
+.store-items li .price:before {
+	border-right-color: #2d2d2d;
+}
+
+.white-banner:before {
+	border-top-color: #2d2d2d;
+	border-bottom-color: #2d2d2d;
+}
+
+.selectboxit-container .selectboxit,
+#vendor_informations {
+	color: #eee;
+	background-color: #2d2d2d;
+}
+
+.selectboxit-btn.selectboxit-enabled:hover,
+.selectboxit-btn.selectboxit-enabled:focus,
+.selectboxit-btn.selectboxit-enabled:active {
+	color: #eee;
+	background-color: #3d3d3d;
+}
+
+#source_manga_showview #main_content .landscape-grid li .wrapper {
+	background-color: #2d2d2d !important;
+}
+
+.detail-heading,
+.secondary {
+	color: #9c9c9c;
+}
+
+ul.news-top-stories-row li a,
+ul.news li.news-item {
+	color: #eee;
+	background-color: #1d1d1d;
+	border-color: #666;
+}
+
+ul.news h3 a,
+ul.news-abbr h2 a,
+ul.news-abbr .byline,
+ul.newsfeed .news-date-label,
+ul.news .news-date-label,
+.showcrunchynews h2,
+ul.newsfeed h3 a {
+	color: #ababab;
+}
+
+.showcrunchynews .top-news {
+	color: #eee;
+	border-color: #666;
+}
+
+#showmedia_about_info_details span {
+	color: #eee;
+	font-weight: 700;
+}
+
+.searchbox-focus,
+.guestbook-list,
+#paginator_bar a.disabled:hover,
+.showforumtopic-message-footer,
+.showforumtopic-message-user-thumblink img,
+.showforumtopic-message-user {
+	border-color: #666;
+}
+
+#source_showview .season-dropdown.open,
+#source_showview .season-dropdown,
+.paginator-lite,
+.text-input[type="text"],
+.text-input[type="password"],
+textarea.text-input,
+input[type=text],
+input[type=email],
+input[type=password],
+textarea,
+.user-profile-link,
+.widget-forumnav .widget-forumnav-children {
+	background-color: #454545 !important;
+}
+
+.user-profile-entity-page-create-container,
+.bb-spoiler {
+	background-color: #454545;
+}
+
+.forum_main-topic-desc,
+.group-card {
+	background-image: none;
+	background-color: #454545;
+}
+
+.paginator-lite-disabled,
+.paginator-lite-selected,
+.paginator-lite:hover,
+#paginator_bar a.disabled,
+.calendar-month-days,
+.calendar-month-date,
+.selectboxit-list,
+.store-sub-menu ul li.selectboxit-option {
+	background-color: #2d2d2d;
+	color: #eee;
+	border-color: #666;
+}
+
+#template_action_button a:hover,
+/* Forum Button */
+a.dark-button:active,
+a.dark-button.selected,
+span.dark-button:active,
+/* General Buttons */
+span.dark-button.selected,
+input.dark-button:active,
+input.dark-button.selected,
+.dark-button:active,
+.dark-button.selected,
+a.default-button:active,
+a.default-button.selected,
+span.default-button:active,
+span.default-button.selected,
+input.default-button:active,
+input.default-button.selected,
+.default-button:active,
+.default-button.selected,
+.daily-deal,
+.email-subscribe,
+.promotion,
+.store-items li .price,
+.store-items li .product-info,
+.white-banner h2,
+#main_image_container,
+.submitbtn:active,
+.submitbtn:hover,
+.submitbtn_hover,
+.calendar-month-notcurrent,
+.calendar-month-date-events-today,
+.big-btn:hover,
+/* User Page */
+a.default-button:hover,
+span.default-button:hover,
+input.default-button:hover,
+.default-button:hover,
+/* Settings Page */
+.show-all-simulcasts-button,
+/* Front Page Button */
+.showmedia-submenu .watch-dub-on-vrv
+
+/* Watch dub on VRV button on watch page */
+	{
+	background-image: none;
+	background-color: #1d1d1d;
+	border-color: #666;
+	color: #eee;
+}
+
+.showmedia-submenu .watch-dub-on-vrv
+
+/* Watch dub on VRV button on watch page */
+	{
+	box-shadow: none;
+}
+
+.showforumtopic-fblike,
+#deal_overlay .overlay-button-left:hover,
+#deal_overlay .overlay-button-right:hover {
+	background-color: transparent;
+}
+
+.widget-forumcategory-display-title .widget-forumcategory-display-firstfewpage:hover,
+.widget-forumnav .widget-forumnav-children:hover,
+#main_content_white,
+.white-wrapper {
+	background-color: #2d2d2d !important;
+	color: #eee !important;
+}
+
+#store_items li,
+.user-profile-link:hover,
+.user-profile-link:hover img,
+.widget-forumnav-current,
+.showforumtopic-messages td,
+.bb-spoiler-highlight,
+.store-sub-menu h2.store-sub-menu-header,
+.availability-notes-low {
+	background-color: #2d2d2d !important;
+}
+
+.acct-nav a:hover,
+.acct-nav a.highlight
+
+/* Settings Page */
+	{
+	background-color: #1d1d1d;
+	border-color: #666;
+}
+
+.topbar-nav-trail {
+	color: #aaa;
+}
+
+/* Front Page View Count Bubble Transparency Fix */
+.welcome-news-views {
+	background-color: transparent;
+	background: url(chrome-extension://__MSG_@@extension_id__/images/views-count-bubble.png) no-repeat;
+}
+
+/* New Calandar (http://www.crunchyroll.com/simulcastcalendar) */
+.day.active .calendar-day {
+	background-color: #484848;
+}
+
+.simulcast-lineup-toggle .mode-button,
+.calendar .pagination-arrow {
+	background-color: #383838;
+}
+
+/* Lineup (http://www.crunchyroll.com/lineup) */
+.lineup-container {
+	background-color: #2b2b2b;
+}
+
+/* /inbox */
+.tablelist_shadow,
+.inbox-nav-contents li.highlight a,
+.inbox-nav-contents li a:hover {
+	background-color: #454545;
+}
+
+a.pm-name,
+a.pm-new-name,
+.pm-subject,
+.inbox-nav-contents a {
+	color: #eee;
+}
+
+.pm-new-subject {
+	color: #ccc;
+	font-weight: 800;
+}
+
+#RpcApiUser_Login a.submit .right,
+#RpcApiUser_Signup a.submit .right {
+	background-color: #1b1b1b;
+	/* Background color of the website */
+}
+
+/* "Start your free trial" box on player page */
+#showmedia_free_trial_signup {
+	background-color: #2b2b2b;
+}
+
+.showmedia-free-trial-header {
+	background-color: #3b3b3b;
+}
+
+/* Publisher page (e.g. https://www.crunchyroll.com/publisher/Aniplex) */
+.publisher-title-container .link {
+	color: #eee;
+}
+
+/**** END LEGACY STYLES ****/
+
+.availability-notes-high{background-color:#21282c !important;border-color:#4e6d7e !important;color:#eee !important}
+
+body.main-page,#template_container.template-container,#template_body.old-template-body{background-color:#1b1b1b !important;color:#eee !important}html{background-color:#1b1b1b !important}body.main-page .ad-skin{background:transparent !important}#template_body.old-template-body{border:1px solid #666 !important}.new-template-body{color:#eee !important}.new-template-body a.block-link{color:#eee !important}.new-template-body .wrapper a:hover a,.new-template-body a:hover h4,.new-template-body a.block-link:hover{color:#68c9fd !important}.new-template-body .block-link:hover,.new-template-body .pagination a,.new-template-body .para-div a,.new-template-body .sub-tabs .selectors a.text-link,.new-template-body .text-link,.new-template-body .wrapper a:hover a,.new-template-body a:hover h4,.new-template-body li a,.new-template-body p a,.new-template-body span a{color:#0d91d9 !important}.old-template-body{color:#eee !important;background-color:#0b0b0b !important}.old-template-body a.block-link{color:#eee !important}.old-template-body input,.old-template-body select{color:#eee !important;background-color:#0b0b0b !important}
+
+.collection-carousel .collection-carousel-arrow{background-image:url(chrome-extension://__MSG_@@extension_id__/images/arrows.png) !important}.dropdown-collection{background-image:url(chrome-extension://__MSG_@@extension_id__/images/queue_dropdown_arrow.png) !important}
+
+.content-panel{background:#2d2d2d !important}
+
+a.block-link{color:#eee !important}a.block-link:hover{color:#68c9fd !important}
+
+.isolated-page-footer{background-color:#2d2d2d !important;color:#eee !important}#footer_menu,#footer{background-color:#2d2d2d !important;color:#eee !important}#footer a{color:#0d91d9 !important}#footer .footer-language .selected{color:#68c9fd !important}#footer .footer-column a.optanon-show-settings{color:#0b81c1 !important}#footer .footer-column a:hover{color:#68c9fd !important}#footer .footer-column #footer_country_flag,#footer .footer-column .icon{border:none !important}#footer .footer-column h6{color:#eee !important}
+
+.freetrial-page .form-area,.freetrial-page .premium-value-props,.freetrial-page main>footer{color:#eee !important;background:#3b3b3b !important}.freetrial-page input.validated-input:invalid,.freetrial-page textarea.validated-input:invalid{background:none !important}.freetrial-page .std-form input,.freetrial-page .std-form select,.freetrial-page .std-form textarea{background-color:#454545 !important;color:#eee !important}.freetrial-page .std-form fieldset,.freetrial-page .std-form p,.freetrial-page .std-form input,.freetrial-page .std-form select,.freetrial-page .std-form textarea{color:#eee !important}.freetrial-page small{color:#eee !important}
+
+#header .header-search-form .header-searchbox,#header_beta .header-search-form .header-searchbox,.erc-header .header-search-form .header-searchbox,.site-header .header-search-form .header-searchbox,.isolated-page-header .header-search-form .header-searchbox,#header .header-search-form .header-searchbox::placeholder,#header_beta .header-search-form .header-searchbox::placeholder,.erc-header .header-search-form .header-searchbox::placeholder,.site-header .header-search-form .header-searchbox::placeholder,.isolated-page-header .header-search-form .header-searchbox::placeholder{color:#eee !important;text-shadow:0 1px 0 rgba(0,0,0,0.45) !important}#header .header-search-form .header-searchbox,#header_beta .header-search-form .header-searchbox,.erc-header .header-search-form .header-searchbox,.site-header .header-search-form .header-searchbox,.isolated-page-header .header-search-form .header-searchbox{background-color:#454545 !important;background-image:none !important;box-shadow:none !important;border-color:#666 !important}#header,#header_beta,.erc-header,.site-header,.isolated-page-header{background-color:#2d2d2d !important;color:#eee !important}#header .header-logo,#header .erc-header__logo,#header .header-logo,#header .interstitial-header .logo-enUS,#header #logo_beta svg,#header .isolated-page-header svg,#header_beta .header-logo,#header_beta .erc-header__logo,#header_beta .header-logo,#header_beta .interstitial-header .logo-enUS,#header_beta #logo_beta svg,#header_beta .isolated-page-header svg,.erc-header .header-logo,.erc-header .erc-header__logo,.erc-header .header-logo,.erc-header .interstitial-header .logo-enUS,.erc-header #logo_beta svg,.erc-header .isolated-page-header svg,.site-header .header-logo,.site-header .erc-header__logo,.site-header .header-logo,.site-header .interstitial-header .logo-enUS,.site-header #logo_beta svg,.site-header .isolated-page-header svg,.isolated-page-header .header-logo,.isolated-page-header .erc-header__logo,.isolated-page-header .header-logo,.isolated-page-header .interstitial-header .logo-enUS,.isolated-page-header #logo_beta svg,.isolated-page-header .isolated-page-header svg{filter:grayscale(1) invert(0.5) brightness(180%) !important}#header .erc-browse-dropdown__content,#header .erc-events-dropdown__links,#header_beta .erc-browse-dropdown__content,#header_beta .erc-events-dropdown__links,.erc-header .erc-browse-dropdown__content,.erc-header .erc-events-dropdown__links,.site-header .erc-browse-dropdown__content,.site-header .erc-events-dropdown__links,.isolated-page-header .erc-browse-dropdown__content,.isolated-page-header .erc-events-dropdown__links{background-color:#2d2d2d !important}#header .erc-account-menu,#header_beta .erc-account-menu,.erc-header .erc-account-menu,.site-header .erc-account-menu,.isolated-page-header .erc-account-menu{background-color:#2d2d2d !important}#header .erc-account-menu--authenticated .erc-account-menu__user-email,#header_beta .erc-account-menu--authenticated .erc-account-menu__user-email,.erc-header .erc-account-menu--authenticated .erc-account-menu__user-email,.site-header .erc-account-menu--authenticated .erc-account-menu__user-email,.isolated-page-header .erc-account-menu--authenticated .erc-account-menu__user-email{color:#eee !important}#header .erc-user-actions__profile:hover,#header .erc-user-actions__profile.state-open,#header .erc-account-menu__link:hover,#header_beta .erc-user-actions__profile:hover,#header_beta .erc-user-actions__profile.state-open,#header_beta .erc-account-menu__link:hover,.erc-header .erc-user-actions__profile:hover,.erc-header .erc-user-actions__profile.state-open,.erc-header .erc-account-menu__link:hover,.site-header .erc-user-actions__profile:hover,.site-header .erc-user-actions__profile.state-open,.site-header .erc-account-menu__link:hover,.isolated-page-header .erc-user-actions__profile:hover,.isolated-page-header .erc-user-actions__profile.state-open,.isolated-page-header .erc-account-menu__link:hover{background-color:#0b0b0b !important;color:#68c9fd !important}#header .erc-account-menu__user-meta::before,#header_beta .erc-account-menu__user-meta::before,.erc-header .erc-account-menu__user-meta::before,.site-header .erc-account-menu__user-meta::before,.isolated-page-header .erc-account-menu__user-meta::before{opacity:0 !important}#header .header-navigation li,#header_beta .header-navigation li,.erc-header .header-navigation li,.site-header .header-navigation li,.isolated-page-header .header-navigation li{background-color:transparent !important}#header .header-navigation li a,#header .header-navigation li #header_profile_dropdown .caption,#header .header-navigation li #store_button,#header_beta .header-navigation li a,#header_beta .header-navigation li #header_profile_dropdown .caption,#header_beta .header-navigation li #store_button,.erc-header .header-navigation li a,.erc-header .header-navigation li #header_profile_dropdown .caption,.erc-header .header-navigation li #store_button,.site-header .header-navigation li a,.site-header .header-navigation li #header_profile_dropdown .caption,.site-header .header-navigation li #store_button,.isolated-page-header .header-navigation li a,.isolated-page-header .header-navigation li #header_profile_dropdown .caption,.isolated-page-header .header-navigation li #store_button{color:#eee !important}#header .header-navigation li a:hover,#header .header-navigation li #header_profile_dropdown:hover .caption,#header .header-navigation li #store_button:hover,#header_beta .header-navigation li a:hover,#header_beta .header-navigation li #header_profile_dropdown:hover .caption,#header_beta .header-navigation li #store_button:hover,.erc-header .header-navigation li a:hover,.erc-header .header-navigation li #header_profile_dropdown:hover .caption,.erc-header .header-navigation li #store_button:hover,.site-header .header-navigation li a:hover,.site-header .header-navigation li #header_profile_dropdown:hover .caption,.site-header .header-navigation li #store_button:hover,.isolated-page-header .header-navigation li a:hover,.isolated-page-header .header-navigation li #header_profile_dropdown:hover .caption,.isolated-page-header .header-navigation li #store_button:hover{color:#68c9fd !important}#header .header-navigation .state-selected .header-icon,#header_beta .header-navigation .state-selected .header-icon,.erc-header .header-navigation .state-selected .header-icon,.site-header .header-navigation .state-selected .header-icon,.isolated-page-header .header-navigation .state-selected .header-icon{fill:#0d91d9 !important;color:#0d91d9 !important}#header .header-navigation .header-icon:hover,#header_beta .header-navigation .header-icon:hover,.erc-header .header-navigation .header-icon:hover,.site-header .header-navigation .header-icon:hover,.isolated-page-header .header-navigation .header-icon:hover{fill:#68c9fd !important;color:#68c9fd !important}#header .header-navigation .header-menubar ul,#header_beta .header-navigation .header-menubar ul,.erc-header .header-navigation .header-menubar ul,.site-header .header-navigation .header-menubar ul,.isolated-page-header .header-navigation .header-menubar ul{background-color:#2d2d2d !important}#header .erc-header__content a,#header .erc-header__content #header_profile_dropdown .caption,#header .erc-header__content #store_button,#header .erc-header__content .erc-header__tile,#header_beta .erc-header__content a,#header_beta .erc-header__content #header_profile_dropdown .caption,#header_beta .erc-header__content #store_button,#header_beta .erc-header__content .erc-header__tile,.erc-header .erc-header__content a,.erc-header .erc-header__content #header_profile_dropdown .caption,.erc-header .erc-header__content #store_button,.erc-header .erc-header__content .erc-header__tile,.site-header .erc-header__content a,.site-header .erc-header__content #header_profile_dropdown .caption,.site-header .erc-header__content #store_button,.site-header .erc-header__content .erc-header__tile,.isolated-page-header .erc-header__content a,.isolated-page-header .erc-header__content #header_profile_dropdown .caption,.isolated-page-header .erc-header__content #store_button,.isolated-page-header .erc-header__content .erc-header__tile{color:#eee !important}#header .erc-header__content a:hover,#header .erc-header__content #header_profile_dropdown:hover .caption,#header .erc-header__content #store_button:hover,#header .erc-header__content .erc-header__tile:hover,#header_beta .erc-header__content a:hover,#header_beta .erc-header__content #header_profile_dropdown:hover .caption,#header_beta .erc-header__content #store_button:hover,#header_beta .erc-header__content .erc-header__tile:hover,.erc-header .erc-header__content a:hover,.erc-header .erc-header__content #header_profile_dropdown:hover .caption,.erc-header .erc-header__content #store_button:hover,.erc-header .erc-header__content .erc-header__tile:hover,.site-header .erc-header__content a:hover,.site-header .erc-header__content #header_profile_dropdown:hover .caption,.site-header .erc-header__content #store_button:hover,.site-header .erc-header__content .erc-header__tile:hover,.isolated-page-header .erc-header__content a:hover,.isolated-page-header .erc-header__content #header_profile_dropdown:hover .caption,.isolated-page-header .erc-header__content #store_button:hover,.isolated-page-header .erc-header__content .erc-header__tile:hover{color:#68c9fd !important}#header .header-search-form,#header_beta .header-search-form,.erc-header .header-search-form,.site-header .header-search-form,.isolated-page-header .header-search-form{background:#1b1b1b !important}#header .header-search-form .header-searchbox-submit,#header_beta .header-search-form .header-searchbox-submit,.erc-header .header-search-form .header-searchbox-submit,.site-header .header-search-form .header-searchbox-submit,.isolated-page-header .header-search-form .header-searchbox-submit{background-color:#494949 !important;border-left:1px solid #666 !important}#header .header-search-form .header-searchbox-submit svg,#header_beta .header-search-form .header-searchbox-submit svg,.erc-header .header-search-form .header-searchbox-submit svg,.site-header .header-search-form .header-searchbox-submit svg,.isolated-page-header .header-search-form .header-searchbox-submit svg{filter:grayscale(1) invert(0.5) brightness(180%) !important;fill:#0d91d9 !important;color:#0d91d9 !important}#header .header-search-form :focus .header-searchbox-submit svg,#header .header-search-form :hover .header-searchbox-submit svg,#header_beta .header-search-form :focus .header-searchbox-submit svg,#header_beta .header-search-form :hover .header-searchbox-submit svg,.erc-header .header-search-form :focus .header-searchbox-submit svg,.erc-header .header-search-form :hover .header-searchbox-submit svg,.site-header .header-search-form :focus .header-searchbox-submit svg,.site-header .header-search-form :hover .header-searchbox-submit svg,.isolated-page-header .header-search-form :focus .header-searchbox-submit svg,.isolated-page-header .header-search-form :hover .header-searchbox-submit svg{fill:#68c9fd !important;color:#68c9fd !important;filter:none !important}#header .header-search-form :active .header-searchbox-submit svg,#header_beta .header-search-form :active .header-searchbox-submit svg,.erc-header .header-search-form :active .header-searchbox-submit svg,.site-header .header-search-form :active .header-searchbox-submit svg,.isolated-page-header .header-search-form :active .header-searchbox-submit svg{fill:#0d91d9 !important;color:#0d91d9 !important;filter:none !important}
+
+#welcome_right #sidebar+div.welcome-block div{background-color:#21282c !important;border-color:#4e6d7e !important;color:#eee !important}
+
+.login-or-signup-page .std-form #login_submit_button,.login-or-signup-page .std-form #signup_submit_button,.login-or-signup-page .std-form input,.login-or-signup-page .std-form select{color:#eee !important;text-shadow:0 1px 0 rgba(0,0,0,0.45) !important}.login-or-signup-page .std-form #login_submit_button,.login-or-signup-page .std-form #signup_submit_button,.login-or-signup-page .std-form input,.login-or-signup-page .std-form select{background-color:#454545 !important;background-image:none !important;box-shadow:none !important;border-color:#666 !important}.login-or-signup-page .std-form #login_submit_button:hover,.login-or-signup-page .std-form #signup_submit_button:hover{background-color:#2d2d2d !important}.login-or-signup-page .forms{background-color:#2d2d2d !important;color:#eee !important}.login-or-signup-page main{background-color:#1b1b1b !important}.login-or-signup-page .std-form .label-text{color:#eee !important}.login-or-signup-page .std-form #login_submit_button,.login-or-signup-page .std-form #signup_submit_button{border:#666 solid 1px !important;box-shadow:none !important}
+
+.message-container{background-color:#21282c !important;border-color:#4e6d7e !important;color:#eee !important}
+
+.portrait-grid .portrait-element{background-color:#2d2d2d !important;color:#eee !important}.portrait-grid .portrait-element:active{background-color:#494949 !important}.portrait-grid .portrait-element:hover{color:#68c9fd !important}.portrait-grid .short-desc{color:#ddd !important}
+
+.tooltip-message{background-color:#21282c !important;border-color:#4e6d7e !important;color:#eee !important}#top_background_box{color:#eee !important}.comparison{background-color:#3b3b3b !important;color:#eee !important}.comparison .membership-price-picker .membership-price,.comparison .premium-comparison-gift-link a{color:#0d91d9 !important}.comparison .premium-comparison-gift-link:hover a{color:#68c9fd !important}#premium_container .membership-crown{background-color:#eee !important}
+
+.queue-sortable .queue-to-top{background:url(chrome-extension://__MSG_@@extension_id__/images/queue_arrow.png) -3px 0 no-repeat !important}.queue-sortable .queue-wrapper,.queue-sortable .landscape-element,.queue-sortable .more-options{background-color:#2d2d2d !important}.queue-sortable .short-desc,.queue-sortable .series-info,.queue-sortable .collection-carousel-overlay-top,.queue-sortable .collection-carousel-overlay-bottom{color:#eee !important}.queue-sortable .series-data{color:#bbb !important}.queue-sortable .short-desc{color:#ddd !important}.queue-sortable .collection-carousel-media-link .link,.queue-sortable .queue-controls .text-link{color:#0d91d9 !important}.queue-sortable .collection-carousel-media-link .link:hover,.queue-sortable .queue-controls .text-link:hover{color:#68c9fd !important}.queue-sortable .queue-item{background-color:#2d2d2d !important}.queue-sortable .queue-item .series-title{color:#eee !important}.queue-sortable .queue-item :hover .series-title{color:#68c9fd !important}.filter-favorite-section{color:#eee !important}body .queue-sortable .wrapper .landscape-element:active{background-color:#494949 !important}
+
+#sidebar{color:#eee !important}
+
+.template-index .cart-drawer .ajaxcart .ajaxcart__qty input,.template-collection .cart-drawer .ajaxcart .ajaxcart__qty input,.template-list-collections .cart-drawer .ajaxcart .ajaxcart__qty input,.template-product .cart-drawer .ajaxcart .ajaxcart__qty input,.template-cart .cart-drawer .ajaxcart .ajaxcart__qty input,.template-search .cart-drawer .ajaxcart .ajaxcart__qty input,.template-account .cart-drawer .ajaxcart .ajaxcart__qty input,.template- .cart-drawer .ajaxcart .ajaxcart__qty input,#wishlist.template-page .cart-drawer .ajaxcart .ajaxcart__qty input,.template-index .cart-drawer .ajaxcart .btn--gray,.template-collection .cart-drawer .ajaxcart .btn--gray,.template-list-collections .cart-drawer .ajaxcart .btn--gray,.template-product .cart-drawer .ajaxcart .btn--gray,.template-cart .cart-drawer .ajaxcart .btn--gray,.template-search .cart-drawer .ajaxcart .btn--gray,.template-account .cart-drawer .ajaxcart .btn--gray,.template- .cart-drawer .ajaxcart .btn--gray,#wishlist.template-page .cart-drawer .ajaxcart .btn--gray,.template-cart .cart-table__item--quantity .js-qty,.template-cart .cart-table__item--quantity .js-qty input,.template-index .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-collection .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-list-collections .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-product .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-cart .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-search .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-account .shopify-section .header-navbar .site-header__search .site-header__search-input,.template- .shopify-section .header-navbar .site-header__search .site-header__search-input,#wishlist.template-page .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-collection .shopify-section.section-module .collection-toolbar__item.collection-toolbar__item--sort select.collection-toolbar__input,.template-product .product-form__cart-submit,.template-product .js-qty__adjust,.template-product .ajaxcart__qty-adjust,.template-product button.wk-remove-product,.template-product button.wk-add-product,.template-product .product-form__item--quantity input,.template- .algolia-autocomplete input,.template-index .shopify-section .header-navbar .site-header__search .site-header__search-input::placeholder,.template-collection .shopify-section .header-navbar .site-header__search .site-header__search-input::placeholder,.template-list-collections .shopify-section .header-navbar .site-header__search .site-header__search-input::placeholder,.template-product .shopify-section .header-navbar .site-header__search .site-header__search-input::placeholder,.template-cart .shopify-section .header-navbar .site-header__search .site-header__search-input::placeholder,.template-search .shopify-section .header-navbar .site-header__search .site-header__search-input::placeholder,.template-account .shopify-section .header-navbar .site-header__search .site-header__search-input::placeholder,.template- .shopify-section .header-navbar .site-header__search .site-header__search-input::placeholder,#wishlist.template-page .shopify-section .header-navbar .site-header__search .site-header__search-input::placeholder{color:#eee !important;text-shadow:0 1px 0 rgba(0,0,0,0.45) !important}.template-index .cart-drawer .ajaxcart .ajaxcart__qty input,.template-collection .cart-drawer .ajaxcart .ajaxcart__qty input,.template-list-collections .cart-drawer .ajaxcart .ajaxcart__qty input,.template-product .cart-drawer .ajaxcart .ajaxcart__qty input,.template-cart .cart-drawer .ajaxcart .ajaxcart__qty input,.template-search .cart-drawer .ajaxcart .ajaxcart__qty input,.template-account .cart-drawer .ajaxcart .ajaxcart__qty input,.template- .cart-drawer .ajaxcart .ajaxcart__qty input,#wishlist.template-page .cart-drawer .ajaxcart .ajaxcart__qty input,.template-index .cart-drawer .ajaxcart .btn--gray,.template-collection .cart-drawer .ajaxcart .btn--gray,.template-list-collections .cart-drawer .ajaxcart .btn--gray,.template-product .cart-drawer .ajaxcart .btn--gray,.template-cart .cart-drawer .ajaxcart .btn--gray,.template-search .cart-drawer .ajaxcart .btn--gray,.template-account .cart-drawer .ajaxcart .btn--gray,.template- .cart-drawer .ajaxcart .btn--gray,#wishlist.template-page .cart-drawer .ajaxcart .btn--gray,.template-cart .cart-table__item--quantity .js-qty,.template-cart .cart-table__item--quantity .js-qty input,.template-index .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-collection .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-list-collections .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-product .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-cart .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-search .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-account .shopify-section .header-navbar .site-header__search .site-header__search-input,.template- .shopify-section .header-navbar .site-header__search .site-header__search-input,#wishlist.template-page .shopify-section .header-navbar .site-header__search .site-header__search-input,.template-collection .shopify-section.section-module .collection-toolbar__item.collection-toolbar__item--sort select.collection-toolbar__input,.template-product .product-form__cart-submit,.template-product .js-qty__adjust,.template-product .ajaxcart__qty-adjust,.template-product button.wk-remove-product,.template-product button.wk-add-product,.template-product .product-form__item--quantity input,.template- .algolia-autocomplete input{background-color:#454545 !important;background-image:none !important;box-shadow:none !important;border-color:#666 !important}.template-index .cart-drawer .ajaxcart .ajaxcart__qty input:hover,.template-collection .cart-drawer .ajaxcart .ajaxcart__qty input:hover,.template-list-collections .cart-drawer .ajaxcart .ajaxcart__qty input:hover,.template-product .cart-drawer .ajaxcart .ajaxcart__qty input:hover,.template-cart .cart-drawer .ajaxcart .ajaxcart__qty input:hover,.template-search .cart-drawer .ajaxcart .ajaxcart__qty input:hover,.template-account .cart-drawer .ajaxcart .ajaxcart__qty input:hover,.template- .cart-drawer .ajaxcart .ajaxcart__qty input:hover,#wishlist.template-page .cart-drawer .ajaxcart .ajaxcart__qty input:hover,.template-index .cart-drawer .ajaxcart .btn--gray:hover,.template-collection .cart-drawer .ajaxcart .btn--gray:hover,.template-list-collections .cart-drawer .ajaxcart .btn--gray:hover,.template-product .cart-drawer .ajaxcart .btn--gray:hover,.template-cart .cart-drawer .ajaxcart .btn--gray:hover,.template-search .cart-drawer .ajaxcart .btn--gray:hover,.template-account .cart-drawer .ajaxcart .btn--gray:hover,.template- .cart-drawer .ajaxcart .btn--gray:hover,#wishlist.template-page .cart-drawer .ajaxcart .btn--gray:hover,.template-cart .cart-table__item--quantity .js-qty:hover,.template-cart .cart-table__item--quantity .js-qty input:hover{background-color:#2d2d2d !important}.template-index,.template-collection,.template-list-collections,.template-product,.template-cart,.template-search,.template-account,.template-,#wishlist.template-page{color:#eee !important;background-color:#1b1b1b !important}.template-index a,.template-collection a,.template-list-collections a,.template-product a,.template-cart a,.template-search a,.template-account a,.template- a,#wishlist.template-page a,.template-index p,.template-collection p,.template-list-collections p,.template-product p,.template-cart p,.template-search p,.template-account p,.template- p,#wishlist.template-page p{color:#eee !important}.template-index .site-header__logo-image,.template-collection .site-header__logo-image,.template-list-collections .site-header__logo-image,.template-product .site-header__logo-image,.template-cart .site-header__logo-image,.template-search .site-header__logo-image,.template-account .site-header__logo-image,.template- .site-header__logo-image,#wishlist.template-page .site-header__logo-image{filter:grayscale(1) invert(0.5) brightness(180%) !important}.template-index .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown,.template-collection .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown,.template-list-collections .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown,.template-product .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown,.template-cart .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown,.template-search .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown,.template-account .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown,.template- .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown,#wishlist.template-page .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown{background-color:#1b1b1b !important}.template-index .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:hover,.template-collection .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:hover,.template-list-collections .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:hover,.template-product .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:hover,.template-cart .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:hover,.template-search .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:hover,.template-account .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:hover,.template- .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:hover,#wishlist.template-page .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:hover,.template-index .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:focus,.template-collection .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:focus,.template-list-collections .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:focus,.template-product .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:focus,.template-cart .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:focus,.template-search .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:focus,.template-account .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:focus,.template- .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:focus,#wishlist.template-page .shopify-section header .site-header__icon-item--account .site-header__icon-dropdown li:focus{background-color:#2d2d2d !important}.template-index .shopify-section .header-navbar,.template-collection .shopify-section .header-navbar,.template-list-collections .shopify-section .header-navbar,.template-product .shopify-section .header-navbar,.template-cart .shopify-section .header-navbar,.template-search .shopify-section .header-navbar,.template-account .shopify-section .header-navbar,.template- .shopify-section .header-navbar,#wishlist.template-page .shopify-section .header-navbar{background-color:#0b0b0b !important}.template-index .shopify-section .header-navbar .site-nav .site-nav__submenu,.template-collection .shopify-section .header-navbar .site-nav .site-nav__submenu,.template-list-collections .shopify-section .header-navbar .site-nav .site-nav__submenu,.template-product .shopify-section .header-navbar .site-nav .site-nav__submenu,.template-cart .shopify-section .header-navbar .site-nav .site-nav__submenu,.template-search .shopify-section .header-navbar .site-nav .site-nav__submenu,.template-account .shopify-section .header-navbar .site-nav .site-nav__submenu,.template- .shopify-section .header-navbar .site-nav .site-nav__submenu,#wishlist.template-page .shopify-section .header-navbar .site-nav .site-nav__submenu{background-color:#1b1b1b !important}.template-index .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:hover,.template-collection .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:hover,.template-list-collections .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:hover,.template-product .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:hover,.template-cart .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:hover,.template-search .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:hover,.template-account .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:hover,.template- .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:hover,#wishlist.template-page .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:hover,.template-index .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:focus,.template-collection .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:focus,.template-list-collections .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:focus,.template-product .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:focus,.template-cart .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:focus,.template-search .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:focus,.template-account .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:focus,.template- .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:focus,#wishlist.template-page .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item:focus{background-color:#2d2d2d !important}.template-index .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:hover,.template-collection .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:hover,.template-list-collections .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:hover,.template-product .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:hover,.template-cart .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:hover,.template-search .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:hover,.template-account .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:hover,.template- .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:hover,#wishlist.template-page .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:hover,.template-index .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:focus,.template-collection .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:focus,.template-list-collections .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:focus,.template-product .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:focus,.template-cart .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:focus,.template-search .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:focus,.template-account .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:focus,.template- .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:focus,#wishlist.template-page .shopify-section .header-navbar .site-nav .site-nav__submenu .site-nav__submenu-item .site-nav__link:focus{background-color:#2d2d2d !important}.template-index .shopify-section .header-navbar .site-header__search .site-header__search-submit,.template-collection .shopify-section .header-navbar .site-header__search .site-header__search-submit,.template-list-collections .shopify-section .header-navbar .site-header__search .site-header__search-submit,.template-product .shopify-section .header-navbar .site-header__search .site-header__search-submit,.template-cart .shopify-section .header-navbar .site-header__search .site-header__search-submit,.template-search .shopify-section .header-navbar .site-header__search .site-header__search-submit,.template-account .shopify-section .header-navbar .site-header__search .site-header__search-submit,.template- .shopify-section .header-navbar .site-header__search .site-header__search-submit,#wishlist.template-page .shopify-section .header-navbar .site-header__search .site-header__search-submit{color:#eee !important}.template-index .page-container .breadcrumbs a:not(.breadcrumbs__active),.template-collection .page-container .breadcrumbs a:not(.breadcrumbs__active),.template-list-collections .page-container .breadcrumbs a:not(.breadcrumbs__active),.template-product .page-container .breadcrumbs a:not(.breadcrumbs__active),.template-cart .page-container .breadcrumbs a:not(.breadcrumbs__active),.template-search .page-container .breadcrumbs a:not(.breadcrumbs__active),.template-account .page-container .breadcrumbs a:not(.breadcrumbs__active),.template- .page-container .breadcrumbs a:not(.breadcrumbs__active),#wishlist.template-page .page-container .breadcrumbs a:not(.breadcrumbs__active),.template-index .page-container .breadcrumbs span:not(.breadcrumbs__active),.template-collection .page-container .breadcrumbs span:not(.breadcrumbs__active),.template-list-collections .page-container .breadcrumbs span:not(.breadcrumbs__active),.template-product .page-container .breadcrumbs span:not(.breadcrumbs__active),.template-cart .page-container .breadcrumbs span:not(.breadcrumbs__active),.template-search .page-container .breadcrumbs span:not(.breadcrumbs__active),.template-account .page-container .breadcrumbs span:not(.breadcrumbs__active),.template- .page-container .breadcrumbs span:not(.breadcrumbs__active),#wishlist.template-page .page-container .breadcrumbs span:not(.breadcrumbs__active){opacity:0.7 !important}.template-index .site-footer__copyright,.template-collection .site-footer__copyright,.template-list-collections .site-footer__copyright,.template-product .site-footer__copyright,.template-cart .site-footer__copyright,.template-search .site-footer__copyright,.template-account .site-footer__copyright,.template- .site-footer__copyright,#wishlist.template-page .site-footer__copyright{color:#eee !important}.template-index .site-footer__copyright a,.template-collection .site-footer__copyright a,.template-list-collections .site-footer__copyright a,.template-product .site-footer__copyright a,.template-cart .site-footer__copyright a,.template-search .site-footer__copyright a,.template-account .site-footer__copyright a,.template- .site-footer__copyright a,#wishlist.template-page .site-footer__copyright a{color:#eee !important}.template-index .cart-drawer,.template-collection .cart-drawer,.template-list-collections .cart-drawer,.template-product .cart-drawer,.template-cart .cart-drawer,.template-search .cart-drawer,.template-account .cart-drawer,.template- .cart-drawer,#wishlist.template-page .cart-drawer{background-color:#1b1b1b !important}.template-index .cart-drawer .ajaxcart .btn--link,.template-collection .cart-drawer .ajaxcart .btn--link,.template-list-collections .cart-drawer .ajaxcart .btn--link,.template-product .cart-drawer .ajaxcart .btn--link,.template-cart .cart-drawer .ajaxcart .btn--link,.template-search .cart-drawer .ajaxcart .btn--link,.template-account .cart-drawer .ajaxcart .btn--link,.template- .cart-drawer .ajaxcart .btn--link,#wishlist.template-page .cart-drawer .ajaxcart .btn--link{color:#0d91d9 !important}.template-collection .shopify-section.section-module .filter-menu .collection-sidebar__title{color:#eee !important}.template-collection .shopify-section.section-module .filter-menu .filter-group .filter-clear{background-color:#454545 !important}.template-collection .shopify-section.section-module .filter-menu .filter-group h4{color:#bbb !important}.template-collection .shopify-section.section-module .collection-toolbar__item.collection-toolbar__item--sort select.collection-toolbar__input option{color:#eee !important;background-color:#454545 !important}.template-collection .pagination-wrapper .pagination__btn--next,.template-collection .pagination-wrapper .pagination__btn--prev{background-color:#494949 !important}.template-collection .pagination-wrapper .pagination__item{background-color:transparent !important}.template-collection .pagination-wrapper .pagination__item:focus,.template-collection .pagination-wrapper .pagination__item:hover{background-color:#494949 !important}.template-list-collections .collection-grid-item__image{border-color:#666 !important}.template-product .product-form__cart-submit:hover,.template-product .js-qty__adjust:hover,.template-product .ajaxcart__qty-adjust:hover,.template-product button.wk-remove-product:hover,.template-product button.wk-add-product:hover{background-color:#2d2d2d !important}.template-product button.wk-remove-product svg path,.template-product button.wk-add-product svg path{stroke:#eee !important}.template-cart .grid__item .cart__footer{background-color:transparent !important}.template-cart .grid__item .cart__footer .cart__summary{background-color:#2d2d2d !important}.template- .algolia-autocomplete .aa-dataset-1{background-color:#454545 !important}.template- .s4com-helpcenter,.template- .s4com-articles a h4{color:#eee !important}#wishlist.template-page .wk-item .wk-price{color:#eee !important}
+
+#tabs{background-color:#494949 !important;color:#eee !important;background-color:#2d2d2d !important}#tabs .main-tabs{background-color:#494949 !important;color:#eee !important}#tabs .main-tabs a{background-color:#494949 !important;color:#eee !important}#tabs .main-tabs a:hover{color:#68c9fd !important}#tabs .main-tabs .selected,#tabs .main-tabs .selected:hover{background-color:#2d2d2d !important}#tabs .main-tabs .selected{color:#eee !important;border:0 !important;border-bottom:4px solid #2d2d2d !important}#tabs .sub-tabs-menu a{color:#eee !important}#tabs .sub-tabs-menu a:hover{color:#68c9fd !important}#tabs .sub-tabs-menu .calendar-link{color:#0d91d9 !important}
+
