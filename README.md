@@ -7,7 +7,7 @@
 
 **UserScript feito pelo JarEdMaster, o código oficial do player pelo itallolegal**
 
-### Extenção para navegador
+### Extensão para navegador
 - Crunchyroll_Premium
 - Crunchyroll_Premium_Kiwi-Browser
 
