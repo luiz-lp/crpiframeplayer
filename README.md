@@ -1,7 +1,8 @@
 # CRP Iframe Player
 **Original repo: https://github.com/itallolegal/crp-iframe-player**
-**Criado: itallolegal e Hyper1025**
-**Atualização: _Mateus7G**
+
+- Criado: itallolegal e Hyper1025
+- Atualização: _Mateus7G
 
 ## Crunchyroll Premium
 ### Script para Tampermonkey 
