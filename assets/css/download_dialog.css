@@ -25,11 +25,11 @@
     background: #a7a7a7!important;
 }
 .modal {
-    background: #eeeaea;
+    background: #3f3f3f;
     text-align: center;
     width: 230px;
     height: 270px;
-    z-index: 999999999;
+    z-index: 2147483647;
     position: absolute;
     top: 0;
     left: 0;
@@ -40,8 +40,8 @@
     padding: 20px;
     -webkit-filter: url(#blur);
     filter: url(#blur);
-    -webkit-transform: translate3d(0, -900%, 0);
-    transform: translate3d(0, -900%, 0);
+    -webkit-transform: translate3d(50px, -900%, 0);
+    transform: translate3d(50px, -900%, 0);
 }
 .close-modal {
 	background: none;
@@ -51,7 +51,7 @@
     cursor: pointer;
     right: 10px;
     top: 10px;
-    color: #334;
+    color: #eee;
     outline: none;
 }
 .download-item {
@@ -73,38 +73,53 @@
 	-ms-user-select: none;
 	user-select: none;
 }
-.hdlabel {
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    width: 4%;
-    text-align: right;
-    padding-right: 2px;
-}
+
 .size {
+    color: #eee;
     font-family: SFProDisplay-Regular;
     font-size: 15px;
     text-align: left;
-    opacity: .5;
     width: 14%;
+    opacity: .7;
 }
+
+.size > img {
+    position: relative;
+    top: 4px;
+    min-width: 15px;
+    width: 15px;
+    max-width: 15px;
+}
+
 .quality {
+    color: #eee;
     font-family: SFProDisplay-Semibold;
     font-size: 15px;
     width: 13%;
     text-align: left;
+    padding-left: 20px;
+}
+
+.quality > sup {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(244, 117, 33);
+    font-size: 10px;
 }
 .down-icon {
-	transition: background-size 2s ease-in;
-	-moz-transition: background-size 2s ease-in;
-	-ms-transition: background-size 2s ease-in;
-	-o-transition: background-size 2s ease-in;
-	-webkit-transition: background-size 2s ease-in;
-	background-image: url(https://fonts.gstatic.com/s/i/materialicons/get_app/v5/24px.svg?download=true);
+	transition: filter 0.08s ease;
+	-moz-transition: filter 0.08s ease;
+	-ms-transition: filter 0.08s ease;
+	-o-transition: filter 0.08s ease;
+    -webkit-transition: filter 0.08s ease;
+    background-image: url(https://fonts.gstatic.com/s/i/materialicons/get_app/v5/24px.svg?download=true);
+    -webkit-filter: invert(98%) sepia(1%) saturate(99%) hue-rotate(314deg) brightness(117%) contrast(87%);
+    filter: invert(98%) sepia(1%) saturate(99%) hue-rotate(314deg) brightness(117%) contrast(87%);
 	cursor: pointer;
     width: 12%;
     background-position: center;
     background-repeat: no-repeat;
 }
 .down-icon:hover {
-	background-size: 50%;
+    -webkit-filter: invert(49%) sepia(98%) saturate(1501%) hue-rotate(348deg) brightness(99%) contrast(92%);;
+    filter: invert(49%) sepia(98%) saturate(1501%) hue-rotate(348deg) brightness(99%) contrast(92%);
 }
